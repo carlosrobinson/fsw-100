@@ -1,0 +1,27 @@
+.my-shows {
+    color: blue;
+}
+table, th, td, tr  {
+    border: 1px solid black;
+}
+article {
+    line-height: 25px;
+}
+body aside {
+    position: relative;
+    float: right;
+    border: 1px solid black;
+    right: 400px;
+    bottom: 200px;
+    width: 200px;
+    font-style: italic;
+    background-color: lightgray;
+}
+span {
+    position: relative;
+    display: inline-block;
+}
+#pic-2 {
+    position: relative;
+
+}
