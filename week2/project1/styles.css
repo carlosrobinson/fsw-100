@@ -1,0 +1,80 @@
+.top-headline {
+    position: relative;
+    left: 300px;
+    width: 800px;
+    margin: 20PX;
+    line-height: 75px;
+    font-size: 45px;font-family: Georgia;
+    color: darkgreen;
+}
+.bottom-headline {
+    position: relative;
+    left: 360px;top: -35px;
+    width: 800px;
+    margin: 20px;
+    line-height: 50px;
+    font-size: 45px;font-family: Georgia;
+    color: darkgreen;
+}
+h2 {
+    position: relative;
+    margin: 2px;
+    bottom: 10px;
+    left: 400px;
+    line-height: 40px;
+    font-size: 35px;top: -40px;font-family: Georgia;
+}
+.picture {
+    float: left;
+    position: relative;
+    left: 23.7%;
+    margin: 5px;
+    width: 245px;
+    height: 245px;  
+}
+body .floating-1 {
+    position: relative;
+    margin: -5px;    
+    left: 333px;
+    bottom: 40%;
+    width: 55%;
+    line-height: 25px;
+    font-size: 21px;
+}
+body .floating-2 {
+    position: relative;
+    margin: 20px;
+    left: 333px;
+    width: 52%;
+    line-height: 25px;
+    font-size: 21px;
+}
+body .nonfloating {
+    position: relative;
+    left: 295px;
+    width: 58%;
+    line-height: 25px;
+    font-size: 21px;
+}
+ul > .bullet-point {
+    position: relative;
+    left: 300px;
+    font-size: 21px;
+}
+#all-caps {
+    text-transform: uppercase;
+    position: relative;
+    left: 295px;
+    font-size: 21px;
+
+}
+#link {
+    position: relative;
+    left: 295px;
+    font-size: 21px;
+    text-decoration: unset;
+}
+#link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
