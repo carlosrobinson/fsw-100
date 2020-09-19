@@ -22,17 +22,26 @@ a {
     position: relative;
     left: 500px;
     top: 75px;
+    font-size: 55px;
     z-index: -1;
 }
 .pic1 {
     position: relative;
     width: 200px;
-    height: 235px;
-    top: 120px;
+    height: 200px;
+    top: 90px;
     left: 285px;
     z-index: -1;
 }
-.phead {
+.phead-1 {
+    position: relative;
+    left: 500px;
+    bottom: 135px;
+    line-height: 3px;
+    color: blue;
+    z-index: -1;
+}
+.phead-1b {
     position: relative;
     left: 500px;
     bottom: 135px;
@@ -47,4 +56,196 @@ a {
     border: none;
     width: 600px;
     z-index: -1;
+}
+.pag-1b {
+    position: relative;
+    width: 600px;
+    left: 280px;
+    bottom: 135px;
+}
+.pic2 {
+    position: relative;
+    width: 200px;
+    height: 230px;
+    top: 120px;
+    left: 285px;
+    z-index: -1;
+}
+.phead-2 {
+    position: relative;
+    left: 500px;
+    bottom: 135px;
+    line-height: 3px;
+    color: blue;
+    z-index: -1;
+}
+.phead-2b {
+    position: relative;
+    left: 500px;
+    bottom: 135px;
+    line-height: 3px;
+    color: blue;
+    z-index: -1;
+}
+.pag-2 {
+    position: relative;
+    left: 500px;
+    bottom: 135px;
+    border: none;
+    width: 600px;
+    z-index: -1;
+}
+.pag-2b {
+    position: relative;
+    width: 600px;
+    left: 280px;
+    bottom: 135px;
+}
+.pic3 {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    top: 60px;
+    left: 285px;
+    z-index: -1;
+}
+.phead-3 {
+    position: relative;
+    left: 500px;
+    bottom: 135px;
+    line-height: 3px;
+    color: blue;
+    z-index: -1;
+}
+.phead-3b {
+    position: relative;
+    left: 500px;
+    bottom: 135px;
+    line-height: 3px;
+    color: blue;
+    z-index: -1;
+}
+.pag-3 {
+    position: relative;
+    left: 500px;
+    bottom: 135px;
+    border: none;
+    width: 600px;
+    z-index: -1;
+}
+.pag-3b {
+    position: relative;
+    width: 600px;
+    left: 280px;
+    bottom: 135px;
+}
+.pic4 {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    top: 70px;
+    left: 285px;
+    z-index: -1;
+}
+.phead-4 {
+    position: relative;
+    left: 500px;
+    bottom: 135px;
+    line-height: 3px;
+    color: blue;
+    z-index: -1;
+}
+.phead-4b {
+    position: relative;
+    left: 500px;
+    bottom: 135px;
+    line-height: 3px;
+    color: blue;
+    z-index: -1;
+}
+.pag-4 {
+    position: relative;
+    left: 500px;
+    bottom: 135px;
+    border: none;
+    width: 600px;
+    z-index: -1;
+}
+.pag-4b {
+    position: relative;
+    width: 600px;
+    left: 280px;
+    bottom: 135px;
+}
+.pic5 {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    top: 70px;
+    left: 285px;
+    z-index: -1;
+}
+.phead-5 {
+    position: relative;
+    left: 500px;
+    bottom: 135px;
+    line-height: 3px;
+    color: blue;
+    z-index: -1;
+}
+.phead-5b {
+    position: relative;
+    left: 500px;
+    bottom: 135px;
+    line-height: 3px;
+    color: blue;
+    z-index: -1;
+}
+.pag-5 {
+    position: relative;
+    left: 500px;
+    bottom: 135px;
+    border: none;
+    width: 600px;
+    z-index: -1;
+}
+.pag-5b {
+    position: relative;
+    width: 600px;
+    left: 280px;
+    bottom: 135px;
+}
+.blog1 {
+    position: relative;
+    display: inline-block;
+    border: hidden;
+    margin: 2px;
+    top: 120px;
+}
+.blog3 {
+    position: relative;
+    display: inline-block;
+    border: hidden;
+    margin: 2px;
+    top: -80px;
+}
+.blog4 {
+    position: relative;
+    display: inline-block;
+    border: hidden;
+    margin: 0px;
+    top: 300px;
+    right: 600px;
+}
+.blog5 {
+    position: relative;
+    display: inline-block;
+    border: hidden;
+    margin: 2px;
+    top: 180px;
+}
+.copy-r {
+    position: relative;
+    display: inline-block;
+    top: 100px;
 }
