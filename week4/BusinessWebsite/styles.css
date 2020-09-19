@@ -1,0 +1,312 @@
+html, body {
+    background-color: rgb(250, 73, 3);
+}
+.site-name {
+  position: relative;
+    display: inline-block;
+    border: 11px solid gray;
+    padding: 7px;
+    left: -4px;
+    top: -22px;
+    font-family: wallpoet;
+    color: honeydew;
+}
+.fas-icons  {
+    position: relative;
+    display: inline-block;
+    border: 2010px hidden;  
+    padding: 18px;
+    bottom: 20px;
+    background-color: rgb(83, 16, 97);
+}
+a {
+    position: relative;
+    text-decoration: unset;
+    color: grey;
+}
+.login-icon {
+    position: relative;
+    float: right;
+    left: -80px;
+    color: yellow;
+}
+.login-text {
+    position: relative;
+    float: right;
+    border: 1px;
+    bottom: 12px;
+}
+.admin {
+    position: relative;
+    width: 900px hidden;
+    margin: 0;
+    padding: 16px;
+    left: 18px;    
+    background-color:  rgb(83, 16, 97);
+}
+
+.calender {
+    position: relative;
+    width: 1800px hidden;
+    margin: 0;
+    padding: 11px;
+    left: 18px;
+    background-color:  rgb(83, 16, 97);
+}
+.tutors {
+    position: relative;
+    width: 1800px hidden;
+    margin: 0;
+    padding: 11px;
+    left: 18px;
+    background-color:  rgb(83, 16, 97);
+}
+.contact {
+    position: relative;
+    width: 1800px hidden;
+    margin: 0;
+    padding: 11px;
+    left: 18px;
+    background-color:  rgb(83, 16, 97);
+}
+.dash {
+    position: relative;
+    width: 1800px hidden;
+    margin: 0;
+    padding: 11px;
+    left: 18px;
+    background-color:  rgb(83, 16, 97);
+}
+.home {
+    position: relative;
+    width: 1800px hidden;
+    margin: 1px;
+    padding: 11px;
+    background-color:  rgb(83, 16, 97);
+}
+.image-1 {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    box-shadow: 10px 10px;
+    left: 800px;
+    bottom: 230px;
+}
+.first-a {
+    position: relative;
+    display: inline-block;
+    border: 5px hidden;
+    padding: 5px;
+    width: 300px;
+    left: 465px;
+    bottom: 320px;
+    box-shadow: 10px 10px;
+    font-family: 'Anton', sans-serif;
+    background-color: grey;
+}
+.image-2 {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    box-shadow: 10px 10px;
+    left: 50px;
+    bottom: 230px;
+}
+.second-a {
+    position: relative;
+    border: 5px hidden;
+    padding: 5px;
+    width: 300px;
+    left: 470px;
+    bottom: 410px;
+    box-shadow: 10px 10px;
+    font-family: 'Anton', sans-serif;
+    background-color: grey;
+}
+.school-name {
+    position: relative;
+    font-size: 44px;
+    left: 165px;
+    bottom: 150px;
+}
+aside {
+    position: relative;
+    display: inline-block;
+    border: 5px hidden;
+    padding: 5px;
+    width: 300px;
+    left: 470px;
+    bottom: 537px;
+    box-shadow: 10px 10px;
+    font-family: 'Anton', sans-serif;
+    background-color: grey;
+}
+.image-3 {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    left: 510px;
+    bottom: 350px;
+    box-shadow: 10px 10px;
+}
+.par-1 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    left: 300px;
+    bottom: 300px;
+}
+button {
+    position: relative;
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    left: 300px;
+    bottom: 300px;
+    color:  rgb(83, 16, 97);
+}
+.y  {
+    position: relative;
+    display: inline-block;
+    bottom: 300px;
+}
+.t {
+    position: relative;
+    display: inline-block;
+    left: 300px;
+    bottom: 300px;
+}
+.g {
+    position: relative;
+    display: inline-block;
+    left: 210px;
+    bottom: 300px;
+}
+.d {
+    position: relative;
+    display: inline-block;
+    left: 120px;
+    bottom: 300px;
+}
+.s {
+    position: relative;
+    display: inline-block;
+    left: 40px; 
+    bottom: 300px;
+}
+.y-1 {
+    position: relative;
+    display: inline-block;
+    bottom: 300px;
+}
+.s-1 {
+    position: relative;
+    display: inline-block;
+    left: 52px;
+    bottom: 300px;
+}
+.d-1 {
+    position: relative;
+    display: inline-block;
+    left: 165px;
+    bottom: 300px;
+}
+.g-1 {
+    position: relative;
+    display: inline-block;
+    left: 220px;
+    bottom: 300px;
+}
+.t-1 {
+    position: relative;
+    display: inline-block;
+    left: 305px;
+    bottom: 300px;
+}
+.y-2 {
+    position: relative;
+    display: inline-block;
+    bottom: 300px;
+}
+.s-2 {
+    position: relative;
+    display: inline-block;
+    left: 52px;
+    bottom: 300px;
+}
+.d-2 {
+    position: relative;
+    display: inline-block;
+    left: 194px;
+    bottom: 300px;
+}
+.g-2 {
+    position: relative;
+    display: inline-block;
+    left: 246px;
+    bottom: 300px;
+}
+.t-2 {
+    position: relative;
+    display: inline-block;
+    left: 350px;
+    bottom: 300px;
+}
+.d-3 {
+    position: relative;
+    display: inline-block;
+    left: 175px;
+    bottom: 300px;
+}
+.g-3 {
+    position: relative;
+    display: inline-block;
+    left: 225px;
+    bottom: 300px;
+}
+.t-3 {
+    position: relative;
+    display: inline-block;
+    left: 320px;
+    bottom: 300px;
+}
+.copy-r {
+    position: relative;
+    display: inline-block;
+    top: 1px;
+}
+.y-4 {
+    position: relative;
+    display: inline-block;
+    bottom: 300px;
+}
+.s-4 {
+    position: relative;
+    display: inline-block;
+    left: 52px;
+    bottom: 300px;
+}
+.d-4 {
+    position: relative;
+    display: inline-block;
+    left: 175px;
+    bottom: 300px;
+}
+.g-4 {
+    position: relative;
+    display: inline-block;
+    left: 219px;
+    bottom: 300px;
+}
+.t-4 {
+    position: relative;
+    display: inline-block;
+    left: 315px;
+    bottom: 300px;
+}
+.a-2 {
+    position: relative;
+    display: inline-block;
+    top: -200px;
+}
