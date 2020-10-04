@@ -1,0 +1,209 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*--Mobile--*/
+#grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template: 
+    "header header header header header header header header" .5fr
+    "main main main main main   main nav nav" 70%
+    "footer footer footer footer footer footer footer footer" .3fr
+    / 20%  15% 20% 20% 25%;
+}
+
+nav {
+    background-color: orangered;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+header {
+    background-color: navy;
+    grid-column: 1 / 6;
+}
+main {
+    background-color: burlywood;
+    grid-row: 2 / 3;
+    grid-column: 2 / 6;
+}
+footer {
+    background-color: navy;
+    grid-column: 1 / 6;
+    grid-row: 3 / 6;
+} 
+#main-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav1:nth-child(1) {
+    position: relative;
+    font-family: georgia;
+    color: white;
+    text-decoration: unset
+  }
+  #nav2:nth-child(2) {
+    position: relative;
+    font-family: georgia;
+    color: white;
+    text-decoration: unset
+  }
+  #nav3:nth-child(3) {
+    position: relative;
+    font-family: georgia;
+    color: white;
+    text-decoration: unset
+  }
+  #nav4:nth-child(4) {
+    position: relative;
+    font-family: georgia;
+    color: white;
+    text-decoration: unset
+  }
+  #nav5:nth-child(5) {
+    position: relative;
+    font-family: georgia;
+    color: white;
+    text-decoration: unset
+  }
+h1 {
+    position: relative;
+    text-align: center;
+
+    font-family: fantasy;
+    font-size: 40px;
+}
+img {
+    position: relative;
+    box-shadow: 10px 10px;
+    width: 160px;
+    height: 160px;
+  }
+  #pag1 {
+      position: relative;
+      font-family: Dancing Script;
+      width: 200px;
+      left: 180px;
+      bottom: 260px;
+  }
+  table.center {
+    margin-left:5px;
+    margin-top: -215px;
+  }
+  table, th, td, tr {
+    border: 1px solid grey;
+    height: 5px;
+    }
+ol {
+    position: relative;
+    left: -10px;
+    top: -5px;
+}
+
+/*--Tablets--*/
+@media only screen  and (min-width:499px) {
+    #grid-container {
+        height: 100vh;
+        display: grid;
+        grid-template: 
+        "header header header header" .5fr
+        "nav main main main" 75%
+        "footer footer footer footer" 1fr
+        / 20% 1fr 1fr 1fr 20%;
+    }
+    nav {
+        background-color: orangered;
+        grid-column: 5 / 6;
+        grid-row: 2 / 3;
+    } 
+    header {
+        background-color: navy;
+        grid-column: 1 / 6;
+    }
+    main {
+        background-color:burlywood;
+        grid-row: 2 / 3;
+        grid-column: 1 / 5;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        justify-content: space-between;
+        align-items: center;
+        background-color: navy;
+        grid-column: 1 / 6;
+        grid-row: 3 / 6;
+    }  
+}
+
+/*--Desktop--*/
+@media only screen and (min-width:767px) {
+    #grid-container {
+        height: 105vh;
+        display: grid;
+        grid-template: 
+        "header header header header header header header header" 10%
+        "main main main main main   main nav nav" 10%
+        "main main main main main   main nav nav" 35%
+        "main main main main main   main nav nav" 35%
+        "footer footer footer footer footer footer footer footer" 10%
+        / 20%  15% 20% 20% 25%;
+    }
+    nav {
+        background-color: orangered;
+        grid-column: 1 / 6;
+        grid-row: 2 / 3;
+    } 
+        main {
+        background-color:burlywood;
+        grid-row: 3 / 6;
+        grid-column: 1 / 6;
+    }
+        footer {
+        background-color: navy;
+        grid-row: 5 / 6;
+    }  
+        header {
+        background-color: navy;
+        grid-column: 1 / 6;
+    }
+    #main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    img {
+        position: relative;
+        box-shadow: 10px 10px;
+        width: 400px;
+        height: 300px;
+      }
+      #pag1 {
+        position: relative;
+        font-size: 20px;
+        width: 300px;
+        left: 430px;
+        bottom: 400px;
+    }
+    table.center {
+      margin-left:420px;
+      margin-top: -370px;
+    }
+    ol {
+        position: relative;
+        left: 25px;
+        top: 5px;
+    }
+    h1 {
+        position: relative;
+        text-align: center;
+        bottom: 20px;
+        font-family: fantasy;
+        font-size: 40px;
+    }
+}
