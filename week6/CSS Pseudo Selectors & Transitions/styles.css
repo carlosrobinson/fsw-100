@@ -1,0 +1,109 @@
+#title {
+    border: 1px solid darkorange;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent {
+    position: relative;
+    display: flex;
+    background-color: gray;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: grey;
+    width: 1000px;
+    height: 310px;
+
+}
+
+/*--Transition Properties--*/
+#b1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: chocolate;
+    transition-property: all;
+    transition: background-color 1000ms linear, height 1000ms linear;
+}
+#b2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: gold;
+    transition-property: all;
+    transition: background-color 1000ms linear, width 1000ms linear;
+}
+#b3 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: navy;
+    transition-property: all;
+    transition:  background-color 1000ms linear, transform 800ms linear, box-shadow 500ms linear;
+}
+#b4 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color:orangered;
+    transition-property: all;
+    transition: backgroud-color 1000ms linear, padding 1000ms ease-out, position 500ms linear;
+    transition-timing-function: ease;
+}
+#b5 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: purple;
+    transition-property: all;
+    transition: background-color 1000ms, border-top-left-radius 1s linear,
+    border-top-right-radius 3s linear, border-bottom-left-radius 5s linear, 
+    border-bottom-right-radius 7s linear;
+    transition-timing-function: ease;
+}
+#b6 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: darkred; 
+    transition-property: all; 
+    transition: background-color 1000ms, opacity 1000ms linear, margin 500ms linear; 
+    transition-timing-function: linear;
+}
+/*--Pseudo Element Hover effects--*/
+
+#b1:hover {
+    background-color: forestgreen;
+    height: 300px;
+    
+}
+#b2:hover {
+    background-color: darkorange;
+    width: 300px;
+}
+#b3:hover {
+    background-color: royalblue;
+    transform: rotate(360deg);
+    box-shadow: 5px 5px goldenrod;
+}
+#b4:hover {
+    background-color: indigo;
+    position: relative;
+    top: 30px;
+    padding: 10px;
+}
+#b5:hover {
+    background-color: lime;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#b6:hover {
+    background-color: crimson;
+    opacity: 0.3;
+    margin: 30px;
+}
