@@ -17,7 +17,7 @@ html, body {
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     background-color: darkred;
     grid-column: 1 / 6;
@@ -405,11 +405,23 @@ table,th,tr,td {
     }
         .icon {
             position: relative;
-            display: inline;
-            right: 300px;
-            bottom: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            right: 330px;
+            bottom: 150px;
+            color: blue;
             transition-property: all;
             transition:  background-color 1000ms linear, transform 800ms linear, box-shadow 500ms linear;
+        }
+        
+        #contact-like {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            right: 170px;
+            bottom: 50px;
         }
         .icon:hover{
             transform: rotate(360deg);
@@ -429,5 +441,19 @@ table,th,tr,td {
             justify-content: space-around;
             align-items: center;
         }
-
-    
+@media only screen and (min-width: 768px){
+    #contact-like {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        right: 300px;
+        top: -20px;
+}
+    .icon {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            right: 330px;
+            bottom: 150px;
+    }
+}
